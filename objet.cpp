@@ -2,14 +2,15 @@
 
 Objet::Objet()
 {
-  this->p=Position();
+  this->p=QPoint();
   this->Pv=0;
 }
 
 
 void Objet::setPos(int longueur, int largeur)
 {
-  this->p.initialisation(longueur, largeur);
+  this->p.setX(longueur);
+  this->p.setY(largeur);
 }
 
 int Objet::getPv()

@@ -26,7 +26,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         appliaction.cpp \
-    position.cpp \
     objet.cpp \
     obstacle.cpp \
     personnage.cpp \
@@ -34,7 +33,6 @@ SOURCES += \
 
 HEADERS += \
         appliaction.h \
-    position.h \
     objet.h \
     obstacle.h \
     personnage.h \

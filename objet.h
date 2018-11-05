@@ -2,13 +2,13 @@
 #define OBJET_H
 
 #include <iostream>
-#include "position.h"
+#include <QPoint>
 using namespace std;
 
-class Objet : public Position
+class Objet : public QPoint
 {
 private:
-  Position p;
+  QPoint p;
   int Pv;
 
 public:
