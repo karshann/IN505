@@ -29,14 +29,17 @@ SOURCES += \
     objet.cpp \
     obstacle.cpp \
     personnage.cpp \
-    terrain.cpp
+    terrain.cpp \
+    modedejeu.cpp
 
 HEADERS += \
         appliaction.h \
     objet.h \
     obstacle.h \
     personnage.h \
-    terrain.h
+    terrain.h \
+    modedejeu.h
 
 FORMS += \
-        appliaction.ui
+        appliaction.ui \
+    modedejeu.ui
